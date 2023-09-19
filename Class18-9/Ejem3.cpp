@@ -6,7 +6,7 @@
 
 int main(){
     int number;
-    std::cout << "Ingrese un numero del 1 al 12";
+    std::cout << "Ingrese un numero del 1 al 12: \n";
     std::cin >> number;
 
     if (number == 2){
