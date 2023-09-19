@@ -7,4 +7,6 @@ add_executable(Data_Structures_1 main.cpp
         Ejercicio1.cpp
         Ejercicio1.h
         Ejem2.cpp
-        Ejem2.h)
+        Ejem2.h
+        Ejem3.cpp
+        Ejem3.h)

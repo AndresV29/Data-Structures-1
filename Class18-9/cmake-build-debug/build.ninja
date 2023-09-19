@@ -67,6 +67,12 @@ build CMakeFiles/Data_Structures_1.dir/Ejem2.cpp.obj: CXX_COMPILER__Data_Structu
   OBJECT_DIR = CMakeFiles\Data_Structures_1.dir
   OBJECT_FILE_DIR = CMakeFiles\Data_Structures_1.dir
 
+build CMakeFiles/Data_Structures_1.dir/Ejem3.cpp.obj: CXX_COMPILER__Data_Structures_1_unscanned_Debug C$:/Users/andre/Documents/GitHub/Data-Structures-1/Data-Structures-1/Class18-9/Ejem3.cpp || cmake_object_order_depends_target_Data_Structures_1
+  DEP_FILE = CMakeFiles\Data_Structures_1.dir\Ejem3.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Data_Structures_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Data_Structures_1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Data_Structures_1
@@ -75,7 +81,7 @@ build CMakeFiles/Data_Structures_1.dir/Ejem2.cpp.obj: CXX_COMPILER__Data_Structu
 #############################################
 # Link the executable Data_Structures_1.exe
 
-build Data_Structures_1.exe: CXX_EXECUTABLE_LINKER__Data_Structures_1_Debug CMakeFiles/Data_Structures_1.dir/main.cpp.obj CMakeFiles/Data_Structures_1.dir/Ejercicio1.cpp.obj CMakeFiles/Data_Structures_1.dir/Ejem2.cpp.obj
+build Data_Structures_1.exe: CXX_EXECUTABLE_LINKER__Data_Structures_1_Debug CMakeFiles/Data_Structures_1.dir/main.cpp.obj CMakeFiles/Data_Structures_1.dir/Ejercicio1.cpp.obj CMakeFiles/Data_Structures_1.dir/Ejem2.cpp.obj CMakeFiles/Data_Structures_1.dir/Ejem3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Data_Structures_1.dir
