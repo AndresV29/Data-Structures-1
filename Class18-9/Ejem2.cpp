@@ -14,7 +14,7 @@ int main(){
     std::cin >> annInterest;
     std::cout<<"Ingrese la cantidad de years: ";
     std::cin >> years;
-    payment = amount + (amount * annInterest * years);
+    payment = amount + (amount * (annInterest/100) * years);
     std::cout<<"El pago por mes es de:" << payment;
     return 0;
 }
