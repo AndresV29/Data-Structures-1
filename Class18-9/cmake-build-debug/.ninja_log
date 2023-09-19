@@ -1,3 +1,9 @@
 # ninja log v5
-3	410	7167868163999251	CMakeFiles/Data_Structures_1.dir/main.cpp.obj	e9cc3d65f257bb10
-410	497	7167868164863623	Data_Structures_1.exe	79221401c8e63c06
+2	308	7167880787945083	CMakeFiles/Data_Structures_1.dir/main.cpp.obj	46e05bc88a22d7d8
+309	384	7167880788650261	Data_Structures_1.exe	62eb1339eb3103f0
+3	352	7167880546211355	CMakeFiles/Data_Structures_1.dir/Ejercicio1.cpp.obj	bd35b81f4e1304d5
+3	470	7167898211900482	CMakeFiles/Data_Structures_1.dir/Ejercicio1.cpp.obj	bd35b81f4e1304d5
+8	476	7167898211970652	CMakeFiles/Data_Structures_1.dir/Ejem2.cpp.obj	53e5be6adddb6a0d
+477	590	7167898213054395	Data_Structures_1.exe	29d9f77b68058aee
+3	382	7167899155952224	CMakeFiles/Data_Structures_1.dir/Ejem2.cpp.obj	53e5be6adddb6a0d
+382	463	7167899156715201	Data_Structures_1.exe	29d9f77b68058aee

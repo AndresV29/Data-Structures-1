@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Data_Structures_1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Data_Structures_1-Debug-2de78e31f420125f0627.json",
+					"jsonFile" : "target-Data_Structures_1-Debug-c27fe8d4f2a68308a45d.json",
 					"name" : "Data_Structures_1",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/andre/Documents/GitHub/Data-Structures-1/Class18-9/cmake-build-debug",
-		"source" : "C:/Users/andre/Documents/GitHub/Data-Structures-1/Class18-9"
+		"build" : "C:/Users/andre/Documents/GitHub/Data-Structures-1/Data-Structures-1/Class18-9/cmake-build-debug",
+		"source" : "C:/Users/andre/Documents/GitHub/Data-Structures-1/Data-Structures-1/Class18-9"
 	},
 	"version" : 
 	{
