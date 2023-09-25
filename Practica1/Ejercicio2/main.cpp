@@ -11,7 +11,7 @@ float calculapaquete(){
     float weight, dist, total;
     cout << "Bienvenido a la calculadora del costo de Envio \n Por favor ingrese el peso del paquete en kilogramos: ";
     cin >>weight;
-    cout << "Por favor ingrese la distancia en kilometros:  ";
+    cout << "Por favor ingrese la distancia en kilometros: ";
     cin >> dist;
     if(weight < 0){
         cout << "El valor ingresado no es valido, favor ingresar un valor mayor que 0";

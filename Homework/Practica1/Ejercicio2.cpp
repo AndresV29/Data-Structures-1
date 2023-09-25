@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 float calculaenvio(float distancia, float preciokm){
+    //Realiza Calculo del total a cancelar y retorna mensaje en pantalle (consola)
     float total;
     total = distancia * preciokm;
     cout << "El costo total del envio: $" << total << endl;
@@ -8,7 +9,8 @@ float calculaenvio(float distancia, float preciokm){
 }
 
 float calculapaquete(){
-    float weight, dist, total;
+    //Recibe peso y distancia, condicional para determinar precio por Km
+    float weight, dist;
     cout << "Bienvenido a la calculadora del costo de Envio \n Por favor ingrese el peso del paquete en kilogramos: ";
     cin >>weight;
     cout << "Por favor ingrese la distancia en kilometros:  ";
@@ -27,7 +29,7 @@ float calculapaquete(){
 }
 
 int main() {
+    //Punto de entrada
     calculapaquete();
-
     return 0;
 }
