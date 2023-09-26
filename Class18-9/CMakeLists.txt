@@ -9,4 +9,12 @@ add_executable(Data_Structures_1 main.cpp
         Ejem2.cpp
         Ejem2.h
         Ejem3.cpp
-        Ejem3.h)
+        Ejem3.h
+        Ejemplo4.cpp
+        Ejemplo4.h
+        Iteraciones.cpp
+        Iteraciones.h
+        IteraCarros.cpp
+        IteraCarros.h
+        Notas.cpp
+        Notas.h)
