@@ -1,0 +1,3 @@
+C:/Users/andre/Documents/GitHub/Data-Structures-1/Data-Structures-1/Practica2/cmake-build-debug/CMakeFiles/Practica2.dir
+C:/Users/andre/Documents/GitHub/Data-Structures-1/Data-Structures-1/Practica2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/andre/Documents/GitHub/Data-Structures-1/Data-Structures-1/Practica2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
