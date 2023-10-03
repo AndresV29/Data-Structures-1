@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Practica2
         Ejercicio1.cpp
-        Ejercicio1.h)
+        Ejercicio1.h
+        Ejer2.cpp
+        Ejer2.h)

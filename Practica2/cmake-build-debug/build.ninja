@@ -55,6 +55,12 @@ build CMakeFiles/Practica2.dir/Ejercicio1.cpp.obj: CXX_COMPILER__Practica2_unsca
   OBJECT_DIR = CMakeFiles\Practica2.dir
   OBJECT_FILE_DIR = CMakeFiles\Practica2.dir
 
+build CMakeFiles/Practica2.dir/Ejer2.cpp.obj: CXX_COMPILER__Practica2_unscanned_Debug C$:/Users/andre/Documents/GitHub/Data-Structures-1/Data-Structures-1/Practica2/Ejer2.cpp || cmake_object_order_depends_target_Practica2
+  DEP_FILE = CMakeFiles\Practica2.dir\Ejer2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Practica2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Practica2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Practica2
@@ -63,7 +69,7 @@ build CMakeFiles/Practica2.dir/Ejercicio1.cpp.obj: CXX_COMPILER__Practica2_unsca
 #############################################
 # Link the executable Practica2.exe
 
-build Practica2.exe: CXX_EXECUTABLE_LINKER__Practica2_Debug CMakeFiles/Practica2.dir/Ejercicio1.cpp.obj
+build Practica2.exe: CXX_EXECUTABLE_LINKER__Practica2_Debug CMakeFiles/Practica2.dir/Ejercicio1.cpp.obj CMakeFiles/Practica2.dir/Ejer2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Practica2.dir
