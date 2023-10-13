@@ -85,6 +85,18 @@ build CMakeFiles/Structures.dir/Nodo.cpp.obj: CXX_COMPILER__Structures_unscanned
   OBJECT_DIR = CMakeFiles\Structures.dir
   OBJECT_FILE_DIR = CMakeFiles\Structures.dir
 
+build CMakeFiles/Structures.dir/ListaDoble/ListaDoble.cpp.obj: CXX_COMPILER__Structures_unscanned_Debug C$:/Users/andre/Documents/GitHub/Data-Structures-1/Data-Structures-1/Videos/Structures/ListaDoble/ListaDoble.cpp || cmake_object_order_depends_target_Structures
+  DEP_FILE = CMakeFiles\Structures.dir\ListaDoble\ListaDoble.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Structures.dir
+  OBJECT_FILE_DIR = CMakeFiles\Structures.dir\ListaDoble
+
+build CMakeFiles/Structures.dir/ListaDoble/NodoDoble.cpp.obj: CXX_COMPILER__Structures_unscanned_Debug C$:/Users/andre/Documents/GitHub/Data-Structures-1/Data-Structures-1/Videos/Structures/ListaDoble/NodoDoble.cpp || cmake_object_order_depends_target_Structures
+  DEP_FILE = CMakeFiles\Structures.dir\ListaDoble\NodoDoble.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Structures.dir
+  OBJECT_FILE_DIR = CMakeFiles\Structures.dir\ListaDoble
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Structures
@@ -93,7 +105,7 @@ build CMakeFiles/Structures.dir/Nodo.cpp.obj: CXX_COMPILER__Structures_unscanned
 #############################################
 # Link the executable Structures.exe
 
-build Structures.exe: CXX_EXECUTABLE_LINKER__Structures_Debug CMakeFiles/Structures.dir/main.cpp.obj CMakeFiles/Structures.dir/ListaAcot.cpp.obj CMakeFiles/Structures.dir/Menu.cpp.obj CMakeFiles/Structures.dir/ListaSTL.cpp.obj CMakeFiles/Structures.dir/Persona.cpp.obj CMakeFiles/Structures.dir/Nodo.cpp.obj
+build Structures.exe: CXX_EXECUTABLE_LINKER__Structures_Debug CMakeFiles/Structures.dir/main.cpp.obj CMakeFiles/Structures.dir/ListaAcot.cpp.obj CMakeFiles/Structures.dir/Menu.cpp.obj CMakeFiles/Structures.dir/ListaSTL.cpp.obj CMakeFiles/Structures.dir/Persona.cpp.obj CMakeFiles/Structures.dir/Nodo.cpp.obj CMakeFiles/Structures.dir/ListaDoble/ListaDoble.cpp.obj CMakeFiles/Structures.dir/ListaDoble/NodoDoble.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Structures.dir

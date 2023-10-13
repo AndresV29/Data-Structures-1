@@ -2,24 +2,24 @@
 // Created by andre on 10/10/2023.
 //
 
-#ifndef STRUCTURES_NODO_H
+#ifndef STRUCTURES_NODODOBLE_H
 #define STRUCTURES_NODO_H
 #include "Persona.h"
 
 
-class Nodo {
+class NodoDoble {
  Persona *dato;
- Nodo* siguiente;
+ NodoDoble* siguiente;
 
 public:
-    Nodo();
+    NodoDoble();
     Persona *getDato() const;
     int getID();
     void setDato(Persona *dato);
-    void setSiguiente(Nodo *siguiente);
-    virtual ~Nodo();
+    void setSiguiente(NodoDoble *siguiente);
+    virtual ~NodoDoble();
     string toString();
 };
 
 
-#endif //STRUCTURES_NODO_H
+#endif //STRUCTURES_NODODOBLE_H

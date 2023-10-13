@@ -19,14 +19,3 @@ void Nodo::setDato(Persona *dato) {
 void Nodo::setSiguiente(Nodo *siguiente) {
     Nodo::siguiente = siguiente;
 }
-
-Nodo::~Nodo() {
-    delete dato;
-}
-int  Nodo::getID() {
-    return getDato()->getId();
-}
-
-string Nodo::toString() {
-    return dato->toString();
-}

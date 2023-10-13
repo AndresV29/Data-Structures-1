@@ -13,4 +13,9 @@ add_executable(Structures main.cpp
         Persona.cpp
         Persona.h
         Nodo.cpp
-        Nodo.h)
+        Nodo.h
+        ListaDoble/ListaDoble.cpp
+        ListaDoble/ListaDoble.h
+        ListaDoble/NodoDoble.cpp
+        ListaDoble/NodoDoble.h
+)
