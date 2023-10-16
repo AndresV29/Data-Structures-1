@@ -18,4 +18,8 @@ add_executable(Structures main.cpp
         ListaDoble/ListaDoble.h
         ListaDoble/NodoDoble.cpp
         ListaDoble/NodoDoble.h
+        LinkDobInt/DoubleLst.cpp
+        LinkDobInt/DoubleLst.h
+        LinkDobInt/Node.cpp
+        LinkDobInt/Node.h
 )

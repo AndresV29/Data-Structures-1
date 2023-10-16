@@ -28,6 +28,7 @@ public:
 private:
     NodoDoble *start;
     NodoDoble *cola;
+    int cantidad;
 
 };
 

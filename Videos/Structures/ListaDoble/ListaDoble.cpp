@@ -3,6 +3,8 @@
 //
 #include "ListaDoble.h"
 #include <iostream>
+#include <sstream>
+
 ListaDoble::ListaDoble() {
     this->start = new NodoDoble;
     this->cola = new NodoDoble;
@@ -83,10 +85,51 @@ void ListaDoble::buscarElemento(int valor) {
     }
 }
 
-string ListaDoble::toString() {
-    return std::string();
-}
+
 
 int ListaDoble::contador() {
-    return 0;
+    NodoDoble *temp = start->getSiguiente(); // 3
+    int contador = 0;//2
+    if (temp != cola) {//1
+        while (temp != nullptr) { //1n
+            contador++; //n
+            temp = temp->getSiguiente(); //n
+        }
+    }
+    return contador;
 }
+string ListaDoble::toString() {
+    stringstream ss;
+    NodoDoble *tmp = start->getSiguiente();
+    if (tmp == cola){
+        ss << "Vacio" << endl;
+    }else {
+        ss << "null";
+        ss << "<-->";
+        do {
+            ss<< tmp->getDato();
+            ss << "<-->";
+            tmp = tmp->getSiguiente();
+        } while (tmp != cola);
+            ss << "NULL" << endl;
+    }
+    return ss.str();
+}
+
+/*int main(){
+ * ListaDoble *puntLD = new ListaDoble;
+ *
+ * puntLD->agregaFinal(14);
+ * puntLD->agregaFinal(20);
+ * puntLD->agregaFinal(25);
+ * puntLD->agregaFinal(40);
+ * puntLD->agregaFinal(11);
+ *
+ * cout<< puntLD->toString;
+ * puntLD->BorraFinal();
+ * cout<< puntLD->toString;
+ *
+ * puntLD->buscarElemento(40);
+ *
+    return 0;
+}*/
