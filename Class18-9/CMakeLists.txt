@@ -3,21 +3,21 @@ project(Data_Structures_1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Data_Structures_1 main.cpp
-        Ejercicio1.cpp
-        Ejercicio1.h
-        Ejem2.cpp
-        Ejem2.h
-        Ejem3.cpp
-        Ejem3.h
-        Ejemplo4.cpp
-        Ejemplo4.h
-        Iteraciones.cpp
-        Iteraciones.h
-        IteraCarros.cpp
-        IteraCarros.h
-        Notas.cpp
-        Notas.h
+add_executable(Data_Structures_1 RepasoC++/main.cpp
+        RepasoC++/Ejercicio1.cpp
+        RepasoC++/Ejercicio1.h
+        RepasoC++/Ejem2.cpp
+        RepasoC++/Ejem2.h
+        RepasoC++/Ejem3.cpp
+        RepasoC++/Ejem3.h
+        RepasoC++/Ejemplo4.cpp
+        RepasoC++/Ejemplo4.h
+        RepasoC++/Iteraciones.cpp
+        RepasoC++/Iteraciones.h
+        RepasoC++/IteraCarros.cpp
+        RepasoC++/IteraCarros.h
+        RepasoC++/Notas.cpp
+        RepasoC++/Notas.h
         Data-Structures-1/ListasArregMat.cpp
         Data-Structures-1/ListasArregMat.h
         Class16-10/Listas.cpp
