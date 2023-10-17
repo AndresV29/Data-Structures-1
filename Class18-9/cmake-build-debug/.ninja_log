@@ -2,11 +2,9 @@
 2	308	7167880787945083	CMakeFiles/Data_Structures_1.dir/main.cpp.obj	46e05bc88a22d7d8
 4	539	7167953760372918	CMakeFiles/Data_Structures_1.dir/Ejem2.cpp.obj	53e5be6adddb6a0d
 3	332	7173992952019305	CMakeFiles/Data_Structures_1.dir/Iteraciones.cpp.obj	4bcb42026892fb41
-362	449	7173995044309294	Data_Structures_1.exe	6a99c971e91bfe05
+378	461	7174004275131098	Data_Structures_1.exe	65ba6966a12f1c46
 9	351	7173916692555951	CMakeFiles/Data_Structures_1.dir/Ejem3.cpp.obj	d6f6dbb5ff5edfb3
 3	470	7167898211900482	CMakeFiles/Data_Structures_1.dir/Ejercicio1.cpp.obj	bd35b81f4e1304d5
-3	362	7173995043471554	CMakeFiles/Data_Structures_1.dir/IteraCarros.cpp.obj	52fae32c23958e06
+4	378	7174004274355340	CMakeFiles/Data_Structures_1.dir/IteraCarros.cpp.obj	52fae32c23958e06
 3	284	7173944123496408	CMakeFiles/Data_Structures_1.dir/Ejemplo4.cpp.obj	170c5d030efc1404
 8	362	7174004274187037	CMakeFiles/Data_Structures_1.dir/Notas.cpp.obj	c522cc633d74427f
-4	378	7174004274355340	CMakeFiles/Data_Structures_1.dir/IteraCarros.cpp.obj	52fae32c23958e06
-378	461	7174004275131098	Data_Structures_1.exe	65ba6966a12f1c46

@@ -17,4 +17,10 @@ add_executable(Data_Structures_1 main.cpp
         IteraCarros.cpp
         IteraCarros.h
         Notas.cpp
-        Notas.h)
+        Notas.h
+        Data-Structures-1/ListasArregMat.cpp
+        Data-Structures-1/ListasArregMat.h
+        Class16-10/Listas.cpp
+        Class16-10/Listas.h
+        Class16-10/Pilas.cpp
+        Class16-10/Pilas.h)
