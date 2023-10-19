@@ -22,4 +22,8 @@ add_executable(Structures main.cpp
         LinkDobInt/DoubleLst.h
         LinkDobInt/Node.cpp
         LinkDobInt/Node.h
+        Stacks/Pila.cpp
+        Stacks/Pila.h
+        Stacks/Pila.h
+        Stacks/Pila.h
 )

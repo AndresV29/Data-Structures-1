@@ -7,17 +7,17 @@
 #include "Persona.h"
 
 
-class NodoDoble {
+class Nodo {
  Persona *dato;
- NodoDoble* siguiente;
+ Nodo* siguiente;
 
 public:
-    NodoDoble();
+    Nodo();
     Persona *getDato() const;
     int getID();
     void setDato(Persona *dato);
-    void setSiguiente(NodoDoble *siguiente);
-    virtual ~NodoDoble();
+    void setSiguiente(Nodo *siguiente);
+    virtual ~Nodo();
     string toString();
 };
 
